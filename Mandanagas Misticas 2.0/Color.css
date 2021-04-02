@@ -1,0 +1,74 @@
+body {
+    background: black;
+    color: white
+}
+
+header {
+    background: #202031;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+.titulos {
+    background: #161621;
+}
+
+h1 {
+    font-size: 30px; 
+    font-family: Times; 
+    font-weight: bold;
+    padding: 5px;
+}
+
+h2 {
+    font: bold 20px Times;
+    padding: 5px;
+}
+
+h3 {
+    font: bold 20px Times;
+    padding: 5px;
+}
+
+.fondo {
+    width: 1200px;
+    background: #0a0a10;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+}
+
+.menu {
+    background: #101018;
+    text-align: left;
+}
+
+.menu li {
+    list-style: none;
+    padding: 10px 50px;
+    font: bold 15px Verdana;
+    display: inline-block;
+}
+
+#nav1 {
+    padding-left: 0px;
+}
+
+.seccion {
+    margin: 20px;
+    width: 850px;
+    float: left;
+}
+
+aside {
+    width: 250px;
+    text-align: right;
+    float: left;
+    margin:20px;
+    background: #101018;
+}
+
+.pie {
+    clear: both;
+}

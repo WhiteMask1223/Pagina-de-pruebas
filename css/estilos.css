@@ -1,0 +1,120 @@
+/*comentarios en CSS */
+
+body {
+    background: #1f1f1f;
+    color: white;
+    margin: 0px;
+}
+
+
+header {
+  background: #0e0e0e;
+}
+
+  #logo {
+    vertical-align: middle;
+  }
+
+  header h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  header h1 a {
+    text-decoration: none;
+    color: white
+  }
+
+  #log {
+    float: right;
+  }
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111111;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(37, 37, 37);
+  }
+
+
+section {
+  width: 900px;
+  padding: 10px;
+  padding-left: 0px;
+  margin-top: 15px;
+  background: #181818;
+  float: left;
+  transition: 0.25s;
+}
+
+  h2 {
+    background: #080808;
+    padding: 5px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  h3 {
+    background: #080808;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .ahead {
+    background: #080808;
+    font-size: 15px;
+    padding: 5px 5px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 30px;
+
+  }
+
+
+  article {
+    background: #0f0f0f;
+    text-align: justify;
+  }
+
+
+aside {
+  float: right;
+  display: block;
+  width: 330px;
+  margin-right: 10px;
+  margin-top: 15px;
+  background: #181818;
+  transition: 0.25s;
+
+}
+
+  aside p {
+    text-align: justify;
+  }
+
+footer {
+  clear: both;
+  text-align: center;
+  background: #080808;
+  height: 100px;
+}
