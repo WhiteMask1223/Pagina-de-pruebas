@@ -17,11 +17,28 @@ body {
     border-radius: 20px;
 }
 
+
+    @keyframes barrita {
+        0% {border-bottom-color: white;}
+        16% {border-bottom-color: red;}
+        33% {border-bottom-color: yellow;}
+        49% {border-bottom-color: blue;}
+        65% {border-bottom-color: darkviolet;;}
+        81% {border-bottom-color: green;}
+        100% {border-bottom-color: white;}
+    }
+
     .box h1 {
         color: white;
         text-transform: uppercase;
         font-weight: 500;
+        border-bottom: 3px solid white;
+        border-radius: 50px;
+        animation-name: barrita;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
     }
+
 
     .box input[type="text"],.box input[type="password"] {
         border: 0;                      /*borde de los cuadritos*/
